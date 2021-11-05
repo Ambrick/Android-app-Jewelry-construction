@@ -4,9 +4,8 @@
 
 #### Task:
 Create the app that:
-- Has a list of generated items (jewelry) based on fragments;
-- Every item has 4 parametrs (title, construction, creation date, exhibition)
-- In detailed information about jewelry user have the option to change title and exhibition status;
+- Has a list of generated items (jewelry) with 4 parametrs (title, construction, creation date, exhibition status) based on fragments;
+- Give an oprion for user to change title and exhibition status in detailed information about jewelry;
 
 #### Result visualisation:
 
