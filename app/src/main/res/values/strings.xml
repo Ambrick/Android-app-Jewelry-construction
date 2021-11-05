@@ -1,0 +1,14 @@
+<resources>
+
+    //activity_fragment strings
+    <string name="app_name">JewelryConstructionProject</string>
+
+    //fragment_jewelry strings
+    <string name="jewelry_title_label">Название украшения:</string>
+    <string name="jewelry_title_hint">Введите назваине</string>
+    <string name="components_of_jewelry_label">Состав украшения:</string>
+    <string name="components_of_jewelry_hint">Состав украшения</string>
+    <string name="jewelry_creation_date_label">Дата создания:</string>
+    <string name="if_for_exhibition_checkBox">Для выставки?</string>
+
+</resources>

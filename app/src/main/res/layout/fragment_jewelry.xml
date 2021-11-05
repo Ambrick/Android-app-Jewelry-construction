@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/JewelryTitleLabel"
+            style="@style/LabelStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jewelry_title_label" />
+
+        <EditText
+            android:id="@+id/JewelryTitleTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/jewelry_title_hint"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/JewelryCompositionLabel"
+            style="@style/LabelStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/components_of_jewelry_label" />
+
+        <TextView
+            android:id="@+id/JewelryCompositionTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/components_of_jewelry_hint"
+            android:padding="5sp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/JewelryDateLabel"
+                    style="@style/LabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|start"
+                    android:text="@string/jewelry_creation_date_label" />
+
+                <TextView
+                    android:id="@+id/JewelryDateTextBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:gravity="center_horizontal|start" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/IfForExhibitionCheckBox"
+            style="@style/LabelStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/if_for_exhibition_checkBox" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
