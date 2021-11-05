@@ -5,9 +5,8 @@
 #### Task:
 Create the app that:
 - Has a list of generated items (jewelry) based on fragments;
-- Every item has 4 parametrs (title, construction, creation date, is for exhibition)
-- This paramet;
-- Also has 2 buttons with additional windows about developers and about prime numbers.
+- Every item has 4 parametrs (title, construction, creation date, exhibition)
+- In detailed information about jewelry user have the option to change title and exhibition status;
 
 #### Result visualisation:
 
