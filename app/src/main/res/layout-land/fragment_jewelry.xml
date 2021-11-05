@@ -11,13 +11,10 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="25dp" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="0"
             android:orientation="horizontal">
 
             <TextView
@@ -25,15 +22,18 @@
                 style="@style/LabelStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="0"
                 android:text="@string/jewelry_title_label" />
 
             <EditText
                 android:id="@+id/JewelryTitleTextBox"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="2sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:hint="@string/jewelry_title_hint"
-                android:textSize="16sp" />
+                android:padding="6sp"
+                android:textSize="18sp" />
 
         </LinearLayout>
 
@@ -69,25 +69,26 @@
                 android:id="@+id/JewelryDateLabel"
                 style="@style/LabelStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal|start"
+                android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="@string/jewelry_creation_date_label" />
 
             <TextView
                 android:id="@+id/JewelryDateTextBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal|start"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
                 android:textSize="16sp" />
 
-        </LinearLayout>
+            <CheckBox
+                android:id="@+id/IfForExhibitionCheckBox"
+                style="@style/LabelStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/if_for_exhibition_checkBox" />
 
-        <CheckBox
-            android:id="@+id/IfForExhibitionCheckBox"
-            style="@style/LabelStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/if_for_exhibition_checkBox" />
+        </LinearLayout>
 
 
     </LinearLayout>
